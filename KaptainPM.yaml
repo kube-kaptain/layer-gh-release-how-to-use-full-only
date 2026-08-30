@@ -1,0 +1,8 @@
+apiVersion: kaptain.org/1.29
+kind: layer-and-layerset-build
+metadata:
+  description: "GitHub release How to Consume full-only layer"
+
+spec:
+  layers:
+    - layerset-and-layer-build:[1.7]

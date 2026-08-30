@@ -1,0 +1,9 @@
+apiVersion: kaptain.org/1.29
+metadata:
+  description: "GitHub release How to Consume full-only layer"
+
+spec:
+  platform:
+    githubActions:
+      release:
+        consumerReferenceForms: full-only
